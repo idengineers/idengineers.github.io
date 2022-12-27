@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-27T10:13:42.919Z</id>
+    <id>urn:2022-12-27T10:24:25.361Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-27T10:13:42.919Z</updated>
+    <updated>2022-12-27T10:24:25.361Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[EP 38: Where do we cache data?]]></title>
+        <id>https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data</id>
+        <link href="https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data"/>
+        <updated>2022-12-24T16:30:56.000Z</updated>
+        <summary type="html"><![CDATA[This week’s system design refresher: ByteByteGo Facebook page What is OSI Model? (Youtube video) Where do we cache data? CI/CD Pipeline What tech stack is commonly used for microservices? ByteByteGo Facebook page We’ve launched a Facebook page and want our content to be more accessible.]]></summary>
+        <author>
+            <name>Alex Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Pragmatic Engineer in 2022]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022"/>
+        <updated>2022-12-20T16:24:49.000Z</updated>
+        <summary type="html"><![CDATA[The articles you enjoyed most this year, my personal favorites, and a recap of a busy year in tech news.]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EP37: Process vs Thread]]></title>
+        <id>https://blog.bytebytego.com/p/ep37-process-vs-thread</id>
+        <link href="https://blog.bytebytego.com/p/ep37-process-vs-thread"/>
+        <updated>2022-12-17T16:30:45.000Z</updated>
+        <summary type="html"><![CDATA[This week’s system design refresher: Process vs. Thread (Youtube video) ChatGPT Timeline DDoS Attack Fallacies of distributed computing What is the difference between Process and Thread? ChatGPT history ChatGPT and copy. ai brought attention to AIGC (AI-generated Content). Why is AIGC gaining explosive growth?]]></summary>
+        <author>
+            <name>Alex Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Scoop: The 2022 Hiring Market, as seen by Hiring Managers]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers"/>
+        <updated>2022-12-15T17:08:16.000Z</updated>
+        <summary type="html"><![CDATA[Insights from 30+ engineering managers, directors, CTOs and founders about what’s happening on the job market.]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Staff Engineer’s Path: You’re a Role Model Now (Sorry)]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path"/>
+        <updated>2022-12-14T16:58:38.000Z</updated>
+        <summary type="html"><![CDATA[An excerpt from The Staff Engineer's Path by Tanya Reilly. The two paths, looking ahead, and creating future leaders.]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Performance Calibrations at Tech Companies: Part 2]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2"/>
+        <updated>2022-12-13T16:42:39.000Z</updated>
+        <summary type="html"><![CDATA[Lifting the lid on calibrations in Big Tech: the politics, strategies, allies. Advice for managers and individual contributors preparing for this key process.]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EP36: Types of Databases and Use Cases]]></title>
+        <id>https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases</id>
+        <link href="https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases"/>
+        <updated>2022-12-10T16:30:12.000Z</updated>
+        <summary type="html"><![CDATA[This week’s system design refresher: How does HTTPS work? (Youtube video) Types of databases and use cases ElasticSearch REST API DesignThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. Ilum the Spark cluster manager and monitoring tool (Sponsored)]]></summary>
+        <author>
+            <name>Alex Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Scoop #34: A Return to the Office (RTO) wave?]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/the-scoop-34</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/the-scoop-34"/>
+        <updated>2022-12-08T16:40:25.000Z</updated>
+        <summary type="html"><![CDATA[Dozens of tech companies have staff return to the office. Also: Uncertainty and anxiety at Amazon and Google; budget cuts at Spotify.]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Performance Calibrations at Tech Companies: Part 1]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/performance-calibrations</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/performance-calibrations"/>
+        <updated>2022-12-06T16:46:51.000Z</updated>
+        <summary type="html"><![CDATA[The reasons for performance calibrations, budgets, bucketing and stack ranking approaches.]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mocking Server API On Kubernetes]]></title>
         <id>https://medium.com/p/963bdeb40297</id>
@@ -13,6 +103,36 @@
         <summary type="html"><![CDATA[Mocking API guna memudahkan proses software development secara simultan]]></summary>
         <author>
             <name>Ayi angio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EP35: What is Kubernetes]]></title>
+        <id>https://blog.bytebytego.com/p/ep35-what-is-kubernetes</id>
+        <link href="https://blog.bytebytego.com/p/ep35-what-is-kubernetes"/>
+        <updated>2022-12-03T16:36:55.000Z</updated>
+        <summary type="html"><![CDATA[This week’s system design refresher: RPC vs. gRPC (Youtube video) Monolithic vs. Microservice Architecture What is k8s ChatGPTThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. RPC vs. gRPC A remote procedure call (RPC) enables one machine to invoke some code on another machine as if it is a local function call from a user’s perspective.]]></summary>
+        <author>
+            <name>Alex Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Scoop: The 2022 Hiring Market, as seen by Tech Recruiters]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market"/>
+        <updated>2022-12-01T16:24:46.000Z</updated>
+        <summary type="html"><![CDATA[Four tech recruiters share what they see on the tech hiring market.]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-World Engineering Challenges #7: Choosing Technologies]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d"/>
+        <updated>2022-11-29T17:26:05.000Z</updated>
+        <summary type="html"><![CDATA[Choosing frameworks, languages and architecture approaches at Trello, Birdie, MetalBear and Motive.]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
         </author>
     </entry>
 </feed>

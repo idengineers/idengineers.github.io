@@ -28,6 +28,212 @@
       "feedUrl": "https://notes.softwarearchitect.id/feed",
       "siteUrl": "https://notes.softwarearchitect.id",
       "articles": []
+    },
+    {
+      "title": "ByteByteGo Newsletter",
+      "feedUrl": "https://blog.bytebytego.com/feed",
+      "siteUrl": "https://blog.bytebytego.com",
+      "articles": [
+        {
+          "id": "https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data",
+          "author": "Alex Xu",
+          "description": "This week’s system design refresher: ByteByteGo Facebook page What is OSI Model? (Youtube video) Where do we cache data? CI/CD Pipeline What tech stack is commonly used for microservices? ByteByteGo Facebook page We’ve launched a Facebook page and want our content to be more accessible.",
+          "link": "https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data",
+          "publishedOn": "2022-12-24T16:30:56.000Z",
+          "wordCount": null,
+          "title": "EP 38: Where do we cache data?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1e0e31c-ad36-46b7-85a3-bd5b19dc4fab_2812x2622.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1e0e31c-ad36-46b7-85a3-bd5b19dc4fab_2812x2622.jpeg"
+        },
+        {
+          "id": "https://blog.bytebytego.com/p/ep37-process-vs-thread",
+          "author": "Alex Xu",
+          "description": "This week’s system design refresher: Process vs. Thread (Youtube video) ChatGPT Timeline DDoS Attack Fallacies of distributed computing What is the difference between Process and Thread? ChatGPT history ChatGPT and copy. ai brought attention to AIGC (AI-generated Content). Why is AIGC gaining explosive growth?",
+          "link": "https://blog.bytebytego.com/p/ep37-process-vs-thread",
+          "publishedOn": "2022-12-17T16:30:45.000Z",
+          "wordCount": null,
+          "title": "EP37: Process vs Thread",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/youtube/w_728,c_limit/4rLW7zg21gI",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/4rLW7zg21gI"
+        },
+        {
+          "id": "https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases",
+          "author": "Alex Xu",
+          "description": "This week’s system design refresher: How does HTTPS work? (Youtube video) Types of databases and use cases ElasticSearch REST API DesignThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. Ilum the Spark cluster manager and monitoring tool (Sponsored)",
+          "link": "https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases",
+          "publishedOn": "2022-12-10T16:30:12.000Z",
+          "wordCount": null,
+          "title": "EP36: Types of Databases and Use Cases",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F50572216-2369-4de0-9375-67fe8ee7a25d_1796x1536.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F50572216-2369-4de0-9375-67fe8ee7a25d_1796x1536.jpeg"
+        },
+        {
+          "id": "https://blog.bytebytego.com/p/ep35-what-is-kubernetes",
+          "author": "Alex Xu",
+          "description": "This week’s system design refresher: RPC vs. gRPC (Youtube video) Monolithic vs. Microservice Architecture What is k8s ChatGPTThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. RPC vs. gRPC A remote procedure call (RPC) enables one machine to invoke some code on another machine as if it is a local function call from a user’s perspective.",
+          "link": "https://blog.bytebytego.com/p/ep35-what-is-kubernetes",
+          "publishedOn": "2022-12-03T16:36:55.000Z",
+          "wordCount": null,
+          "title": "EP35: What is Kubernetes",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F879617e5-c870-4258-97b1-8dfac6e232e1_2796x3816.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F879617e5-c870-4258-97b1-8dfac6e232e1_2796x3816.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Pragmatic Engineer",
+      "feedUrl": "https://newsletter.pragmaticengineer.com/feed",
+      "siteUrl": "https://newsletter.pragmaticengineer.com",
+      "articles": [
+        {
+          "id": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022",
+          "author": "Gergely Orosz",
+          "description": "The articles you enjoyed most this year, my personal favorites, and a recap of a busy year in tech news.",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022",
+          "publishedOn": "2022-12-20T16:24:49.000Z",
+          "wordCount": null,
+          "title": "The Pragmatic Engineer in 2022",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e6123614-c00c-436a-ae2b-8829934948d3_420x300.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e6123614-c00c-436a-ae2b-8829934948d3_420x300.png"
+        },
+        {
+          "id": "https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers",
+          "author": "Gergely Orosz",
+          "description": "Insights from 30+ engineering managers, directors, CTOs and founders about what’s happening on the job market.",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers",
+          "publishedOn": "2022-12-15T17:08:16.000Z",
+          "wordCount": null,
+          "title": "The Scoop: The 2022 Hiring Market, as seen by Hiring Managers",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8f38d157-374a-4a1e-b83e-7131377be8a6_420x300.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8f38d157-374a-4a1e-b83e-7131377be8a6_420x300.png"
+        },
+        {
+          "id": "https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path",
+          "author": "Gergely Orosz",
+          "description": "An excerpt from The Staff Engineer's Path by Tanya Reilly. The two paths, looking ahead, and creating future leaders.",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path",
+          "publishedOn": "2022-12-14T16:58:38.000Z",
+          "wordCount": null,
+          "title": "The Staff Engineer’s Path: You’re a Role Model Now (Sorry)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/22ce273e-a97c-4de9-af68-7eef6f7b24d9_1180x1098.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/22ce273e-a97c-4de9-af68-7eef6f7b24d9_1180x1098.png"
+        },
+        {
+          "id": "https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2",
+          "author": "Gergely Orosz",
+          "description": "Lifting the lid on calibrations in Big Tech: the politics, strategies, allies. Advice for managers and individual contributors preparing for this key process.",
+          "link": "https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2",
+          "publishedOn": "2022-12-13T16:42:39.000Z",
+          "wordCount": null,
+          "title": "Performance Calibrations at Tech Companies: Part 2",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/6c9b4a23-f02b-4aa4-9efd-1675b5461b80_1512x1236.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/6c9b4a23-f02b-4aa4-9efd-1675b5461b80_1512x1236.png"
+        },
+        {
+          "id": "https://newsletter.pragmaticengineer.com/p/the-scoop-34",
+          "author": "Gergely Orosz",
+          "description": "Dozens of tech companies have staff return to the office. Also: Uncertainty and anxiety at Amazon and Google; budget cuts at Spotify.",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-scoop-34",
+          "publishedOn": "2022-12-08T16:40:25.000Z",
+          "wordCount": null,
+          "title": "The Scoop #34: A Return to the Office (RTO) wave?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/792bcd1b-d64d-4a87-9428-93c416abde4e_420x300.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/792bcd1b-d64d-4a87-9428-93c416abde4e_420x300.png"
+        },
+        {
+          "id": "https://newsletter.pragmaticengineer.com/p/performance-calibrations",
+          "author": "Gergely Orosz",
+          "description": "The reasons for performance calibrations, budgets, bucketing and stack ranking approaches.",
+          "link": "https://newsletter.pragmaticengineer.com/p/performance-calibrations",
+          "publishedOn": "2022-12-06T16:46:51.000Z",
+          "wordCount": null,
+          "title": "Performance Calibrations at Tech Companies: Part 1",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3a3e5b99-752b-4e2f-ad2b-b7e93538a578_1322x1098.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3a3e5b99-752b-4e2f-ad2b-b7e93538a578_1322x1098.png"
+        },
+        {
+          "id": "https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market",
+          "author": "Gergely Orosz",
+          "description": "Four tech recruiters share what they see on the tech hiring market.",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market",
+          "publishedOn": "2022-12-01T16:24:46.000Z",
+          "wordCount": null,
+          "title": "The Scoop: The 2022 Hiring Market, as seen by Tech Recruiters",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9d3c6089-1de7-4c5b-b0bc-58a4c9611865_420x300.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9d3c6089-1de7-4c5b-b0bc-58a4c9611865_420x300.png"
+        },
+        {
+          "id": "https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d",
+          "author": "Gergely Orosz",
+          "description": "Choosing frameworks, languages and architecture approaches at Trello, Birdie, MetalBear and Motive.",
+          "link": "https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d",
+          "publishedOn": "2022-11-29T17:26:05.000Z",
+          "wordCount": null,
+          "title": "Real-World Engineering Challenges #7: Choosing Technologies",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8254329f-606e-48bb-bd41-e668dc158042_420x300.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8254329f-606e-48bb-bd41-e668dc158042_420x300.png"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
