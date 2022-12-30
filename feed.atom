@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://engineers.id/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-29T00:37:04.946Z</updated>
+    <updated>2022-12-30T00:36:59.429Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://engineers.id/index.html"/>
     <link rel="self" href="https://engineers.id/feed.atom"/>
@@ -122,16 +122,6 @@
         <link href="https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market"/>
         <updated>2022-12-01T16:24:46.000Z</updated>
         <summary type="html"><![CDATA[Four tech recruiters share what they see on the tech hiring market.]]></summary>
-        <author>
-            <name>Gergely Orosz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Real-World Engineering Challenges #7: Choosing Technologies]]></title>
-        <id>https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d</id>
-        <link href="https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d"/>
-        <updated>2022-11-29T17:26:05.000Z</updated>
-        <summary type="html"><![CDATA[Choosing frameworks, languages and architecture approaches at Trello, Birdie, MetalBear and Motive.]]></summary>
         <author>
             <name>Gergely Orosz</name>
         </author>

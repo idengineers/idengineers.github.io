@@ -216,22 +216,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9d3c6089-1de7-4c5b-b0bc-58a4c9611865_420x300.png"
-        },
-        {
-          "id": "https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d",
-          "author": "Gergely Orosz",
-          "description": "Choosing frameworks, languages and architecture approaches at Trello, Birdie, MetalBear and Motive.",
-          "link": "https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d",
-          "publishedOn": "2022-11-29T17:26:05.000Z",
-          "wordCount": null,
-          "title": "Real-World Engineering Challenges #7: Choosing Technologies",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8254329f-606e-48bb-bd41-e668dc158042_420x300.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8254329f-606e-48bb-bd41-e668dc158042_420x300.png"
         }
       ]
     }
