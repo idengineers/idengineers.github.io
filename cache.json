@@ -35,6 +35,22 @@
       "siteUrl": "https://blog.bytebytego.com",
       "articles": [
         {
+          "id": "https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems",
+          "author": "Alex Xu",
+          "description": "This week’s system design refresher: Cloud Native Accounting 101 in Payments Evolution of Uber’s API Layer Short/Long Polling, SSE, Websocket 17 Equations That Changed the World What is cloud native? Below is a diagram showing the evolution of architecture and processes since the 1980s.",
+          "link": "https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems",
+          "publishedOn": "2022-12-31T16:30:55.000Z",
+          "wordCount": null,
+          "title": "EP 39: Accounting 101 in Payment Systems",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9c4fafd-4096-42ab-86a1-d60c8e895c29_2763x3543.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9c4fafd-4096-42ab-86a1-d60c8e895c29_2763x3543.jpeg"
+        },
+        {
           "id": "https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data",
           "author": "Alex Xu",
           "description": "This week’s system design refresher: ByteByteGo Facebook page What is OSI Model? (Youtube video) Where do we cache data? CI/CD Pipeline What tech stack is commonly used for microservices? ByteByteGo Facebook page We’ve launched a Facebook page and want our content to be more accessible.",
@@ -200,22 +216,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3a3e5b99-752b-4e2f-ad2b-b7e93538a578_1322x1098.png"
-        },
-        {
-          "id": "https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market",
-          "author": "Gergely Orosz",
-          "description": "Four tech recruiters share what they see on the tech hiring market.",
-          "link": "https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market",
-          "publishedOn": "2022-12-01T16:24:46.000Z",
-          "wordCount": null,
-          "title": "The Scoop: The 2022 Hiring Market, as seen by Tech Recruiters",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9d3c6089-1de7-4c5b-b0bc-58a4c9611865_420x300.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9d3c6089-1de7-4c5b-b0bc-58a4c9611865_420x300.png"
         }
       ]
     }

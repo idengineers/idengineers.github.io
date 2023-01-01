@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://engineers.id/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-31T00:35:24.656Z</updated>
+    <updated>2023-01-01T00:41:07.630Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://engineers.id/index.html"/>
     <link rel="self" href="https://engineers.id/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[EP 39: Accounting 101 in Payment Systems]]></title>
+        <id>https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems</id>
+        <link href="https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems"/>
+        <updated>2022-12-31T16:30:55.000Z</updated>
+        <summary type="html"><![CDATA[This week’s system design refresher: Cloud Native Accounting 101 in Payments Evolution of Uber’s API Layer Short/Long Polling, SSE, Websocket 17 Equations That Changed the World What is cloud native? Below is a diagram showing the evolution of architecture and processes since the 1980s.]]></summary>
+        <author>
+            <name>Alex Xu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[EP 38: Where do we cache data?]]></title>
         <id>https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data</id>
@@ -114,16 +124,6 @@
         <summary type="html"><![CDATA[This week’s system design refresher: RPC vs. gRPC (Youtube video) Monolithic vs. Microservice Architecture What is k8s ChatGPTThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. RPC vs. gRPC A remote procedure call (RPC) enables one machine to invoke some code on another machine as if it is a local function call from a user’s perspective.]]></summary>
         <author>
             <name>Alex Xu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Scoop: The 2022 Hiring Market, as seen by Tech Recruiters]]></title>
-        <id>https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market</id>
-        <link href="https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market"/>
-        <updated>2022-12-01T16:24:46.000Z</updated>
-        <summary type="html"><![CDATA[Four tech recruiters share what they see on the tech hiring market.]]></summary>
-        <author>
-            <name>Gergely Orosz</name>
         </author>
     </entry>
 </feed>
