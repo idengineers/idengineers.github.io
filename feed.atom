@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://engineers.id/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-02T00:36:52.322Z</updated>
+    <updated>2023-01-03T00:36:36.686Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://engineers.id/index.html"/>
     <link rel="self" href="https://engineers.id/feed.atom"/>
@@ -104,26 +104,6 @@
         <summary type="html"><![CDATA[The reasons for performance calibrations, budgets, bucketing and stack ranking approaches.]]></summary>
         <author>
             <name>Gergely Orosz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mocking Server API On Kubernetes]]></title>
-        <id>https://medium.com/p/963bdeb40297</id>
-        <link href="https://medium.easyread.co/mocking-server-api-on-kubernetes-963bdeb40297?source=rss----7de2a17d9898---4"/>
-        <updated>2022-12-04T00:14:34.000Z</updated>
-        <summary type="html"><![CDATA[Mocking API guna memudahkan proses software development secara simultan]]></summary>
-        <author>
-            <name>Ayi angio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EP35: What is Kubernetes]]></title>
-        <id>https://blog.bytebytego.com/p/ep35-what-is-kubernetes</id>
-        <link href="https://blog.bytebytego.com/p/ep35-what-is-kubernetes"/>
-        <updated>2022-12-03T16:36:55.000Z</updated>
-        <summary type="html"><![CDATA[This week’s system design refresher: RPC vs. gRPC (Youtube video) Monolithic vs. Microservice Architecture What is k8s ChatGPTThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. RPC vs. gRPC A remote procedure call (RPC) enables one machine to invoke some code on another machine as if it is a local function call from a user’s perspective.]]></summary>
-        <author>
-            <name>Alex Xu</name>
         </author>
     </entry>
 </feed>

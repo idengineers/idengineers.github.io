@@ -4,18 +4,7 @@
       "title": "Easyread - Medium",
       "feedUrl": "https://medium.easyread.co/feed",
       "siteUrl": "https://medium.easyread.co?source=rss----7de2a17d9898---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/963bdeb40297",
-          "author": "Ayi angio",
-          "description": "Mocking API guna memudahkan proses software development secara simultan",
-          "link": "https://medium.easyread.co/mocking-server-api-on-kubernetes-963bdeb40297?source=rss----7de2a17d9898---4",
-          "publishedOn": "2022-12-04T00:14:34.000Z",
-          "wordCount": 2646,
-          "title": "Mocking Server API On Kubernetes",
-          "imageUrl": "https://miro.medium.com/max/1200/0*zMxlndxZV0Tcng2v"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Letters From Iman",
@@ -97,22 +86,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F50572216-2369-4de0-9375-67fe8ee7a25d_1796x1536.jpeg"
-        },
-        {
-          "id": "https://blog.bytebytego.com/p/ep35-what-is-kubernetes",
-          "author": "Alex Xu",
-          "description": "This week’s system design refresher: RPC vs. gRPC (Youtube video) Monolithic vs. Microservice Architecture What is k8s ChatGPTThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. RPC vs. gRPC A remote procedure call (RPC) enables one machine to invoke some code on another machine as if it is a local function call from a user’s perspective.",
-          "link": "https://blog.bytebytego.com/p/ep35-what-is-kubernetes",
-          "publishedOn": "2022-12-03T16:36:55.000Z",
-          "wordCount": null,
-          "title": "EP35: What is Kubernetes",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F879617e5-c870-4258-97b1-8dfac6e232e1_2796x3816.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F879617e5-c870-4258-97b1-8dfac6e232e1_2796x3816.jpeg"
         }
       ]
     },
