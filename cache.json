@@ -95,6 +95,22 @@
       "siteUrl": "https://newsletter.pragmaticengineer.com",
       "articles": [
         {
+          "id": "https://newsletter.pragmaticengineer.com/p/code-freezes",
+          "author": "Gergely Orosz",
+          "description": "At the end of last year, code deployments were frozen at many tech companies. Why was this done, what are the benefits, and what are the tradeoffs of this approach?",
+          "link": "https://newsletter.pragmaticengineer.com/p/code-freezes",
+          "publishedOn": "2023-01-03T17:03:17.000Z",
+          "wordCount": null,
+          "title": "Code Deployment Freezes: Part 1",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9846784e-d504-4a1e-8ae3-b67408d75056_1360x1150.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9846784e-d504-4a1e-8ae3-b67408d75056_1360x1150.png"
+        },
+        {
           "id": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022",
           "author": "Gergely Orosz",
           "description": "The articles you enjoyed most this year, my personal favorites, and a recap of a busy year in tech news.",

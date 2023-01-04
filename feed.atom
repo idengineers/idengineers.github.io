@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://engineers.id/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-03T00:36:36.686Z</updated>
+    <updated>2023-01-04T00:36:26.546Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://engineers.id/index.html"/>
     <link rel="self" href="https://engineers.id/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Code Deployment Freezes: Part 1]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/code-freezes</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/code-freezes"/>
+        <updated>2023-01-03T17:03:17.000Z</updated>
+        <summary type="html"><![CDATA[At the end of last year, code deployments were frozen at many tech companies. Why was this done, what are the benefits, and what are the tradeoffs of this approach?]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[EP 39: Accounting 101 in Payment Systems]]></title>
         <id>https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems</id>
