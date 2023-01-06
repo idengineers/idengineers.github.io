@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://engineers.id/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-05T00:38:12.178Z</updated>
+    <updated>2023-01-06T00:38:18.118Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://engineers.id/index.html"/>
     <link rel="self" href="https://engineers.id/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Scoop #35: Holiday security breaches and outages]]></title>
+        <id>https://newsletter.pragmaticengineer.com/p/the-scoop-35</id>
+        <link href="https://newsletter.pragmaticengineer.com/p/the-scoop-35"/>
+        <updated>2023-01-05T16:56:28.000Z</updated>
+        <summary type="html"><![CDATA[While most of the tech world was on holiday, CircleCI suffered a major security breach, and Twitter had an outage. Also: hiring freezes and layoffs, and Microsoft hiring in Vietnam, and details on Spa]]></summary>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Code Deployment Freezes: Part 1]]></title>
         <id>https://newsletter.pragmaticengineer.com/p/code-freezes</id>
@@ -102,16 +112,6 @@
         <link href="https://newsletter.pragmaticengineer.com/p/the-scoop-34"/>
         <updated>2022-12-08T16:40:25.000Z</updated>
         <summary type="html"><![CDATA[Dozens of tech companies have staff return to the office. Also: Uncertainty and anxiety at Amazon and Google; budget cuts at Spotify.]]></summary>
-        <author>
-            <name>Gergely Orosz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Performance Calibrations at Tech Companies: Part 1]]></title>
-        <id>https://newsletter.pragmaticengineer.com/p/performance-calibrations</id>
-        <link href="https://newsletter.pragmaticengineer.com/p/performance-calibrations"/>
-        <updated>2022-12-06T16:46:51.000Z</updated>
-        <summary type="html"><![CDATA[The reasons for performance calibrations, budgets, bucketing and stack ranking approaches.]]></summary>
         <author>
             <name>Gergely Orosz</name>
         </author>

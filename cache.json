@@ -95,6 +95,22 @@
       "siteUrl": "https://newsletter.pragmaticengineer.com",
       "articles": [
         {
+          "id": "https://newsletter.pragmaticengineer.com/p/the-scoop-35",
+          "author": "Gergely Orosz",
+          "description": "While most of the tech world was on holiday, CircleCI suffered a major security breach, and Twitter had an outage. Also: hiring freezes and layoffs, and Microsoft hiring in Vietnam, and details on Spa",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-scoop-35",
+          "publishedOn": "2023-01-05T16:56:28.000Z",
+          "wordCount": null,
+          "title": "The Scoop #35: Holiday security breaches and outages",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/36cd4faa-496a-479a-ac67-7aace91691a5_420x300.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/36cd4faa-496a-479a-ac67-7aace91691a5_420x300.png"
+        },
+        {
           "id": "https://newsletter.pragmaticengineer.com/p/code-freezes",
           "author": "Gergely Orosz",
           "description": "At the end of last year, code deployments were frozen at many tech companies. Why was this done, what are the benefits, and what are the tradeoffs of this approach?",
@@ -189,22 +205,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/792bcd1b-d64d-4a87-9428-93c416abde4e_420x300.png"
-        },
-        {
-          "id": "https://newsletter.pragmaticengineer.com/p/performance-calibrations",
-          "author": "Gergely Orosz",
-          "description": "The reasons for performance calibrations, budgets, bucketing and stack ranking approaches.",
-          "link": "https://newsletter.pragmaticengineer.com/p/performance-calibrations",
-          "publishedOn": "2022-12-06T16:46:51.000Z",
-          "wordCount": null,
-          "title": "Performance Calibrations at Tech Companies: Part 1",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3a3e5b99-752b-4e2f-ad2b-b7e93538a578_1322x1098.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3a3e5b99-752b-4e2f-ad2b-b7e93538a578_1322x1098.png"
         }
       ]
     }
