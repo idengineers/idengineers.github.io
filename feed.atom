@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://engineers.id/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-07T00:36:21.006Z</updated>
+    <updated>2023-01-08T00:39:10.916Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://engineers.id/index.html"/>
     <link rel="self" href="https://engineers.id/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[EP 40: Git workflow]]></title>
+        <id>https://blog.bytebytego.com/p/ep-40-git-workflow</id>
+        <link href="https://blog.bytebytego.com/p/ep-40-git-workflow"/>
+        <updated>2023-01-07T16:30:02.000Z</updated>
+        <summary type="html"><![CDATA[This week’s system design refresher: CAP Theorem (Youtube video) How Git works Redis use cases Linux commands What 50,000 incidents reveal about the state of incident management (Sponsored) Jump into the industry’s first Incident Benchmark Report and uncover the patterns and trends that can help you level up how you manage and learn from incidents at your organization.]]></summary>
+        <author>
+            <name>Alex Xu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Scoop #35: Holiday security breaches and outages]]></title>
         <id>https://newsletter.pragmaticengineer.com/p/the-scoop-35</id>
@@ -104,16 +114,6 @@
         <summary type="html"><![CDATA[This week’s system design refresher: How does HTTPS work? (Youtube video) Types of databases and use cases ElasticSearch REST API DesignThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. Ilum the Spark cluster manager and monitoring tool (Sponsored)]]></summary>
         <author>
             <name>Alex Xu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Scoop #34: A Return to the Office (RTO) wave?]]></title>
-        <id>https://newsletter.pragmaticengineer.com/p/the-scoop-34</id>
-        <link href="https://newsletter.pragmaticengineer.com/p/the-scoop-34"/>
-        <updated>2022-12-08T16:40:25.000Z</updated>
-        <summary type="html"><![CDATA[Dozens of tech companies have staff return to the office. Also: Uncertainty and anxiety at Amazon and Google; budget cuts at Spotify.]]></summary>
-        <author>
-            <name>Gergely Orosz</name>
         </author>
     </entry>
 </feed>
