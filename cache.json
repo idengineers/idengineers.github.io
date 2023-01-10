@@ -86,22 +86,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/4rLW7zg21gI"
-        },
-        {
-          "id": "https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases",
-          "author": "Alex Xu",
-          "description": "This week’s system design refresher: How does HTTPS work? (Youtube video) Types of databases and use cases ElasticSearch REST API DesignThanks for reading ByteByteGo Newsletter! Subscribe for free to receive new posts and support my work. Ilum the Spark cluster manager and monitoring tool (Sponsored)",
-          "link": "https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases",
-          "publishedOn": "2022-12-10T16:30:12.000Z",
-          "wordCount": null,
-          "title": "EP36: Types of Databases and Use Cases",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F50572216-2369-4de0-9375-67fe8ee7a25d_1796x1536.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F50572216-2369-4de0-9375-67fe8ee7a25d_1796x1536.jpeg"
         }
       ]
     },
