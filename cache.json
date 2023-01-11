@@ -95,6 +95,22 @@
       "siteUrl": "https://newsletter.pragmaticengineer.com",
       "articles": [
         {
+          "id": "https://newsletter.pragmaticengineer.com/p/fractional-cto",
+          "author": "Gergely Orosz",
+          "description": "What the role is and challenges that come with it, getting into fractional CTO roles, and lessons learned.",
+          "link": "https://newsletter.pragmaticengineer.com/p/fractional-cto",
+          "publishedOn": "2023-01-10T15:50:32.000Z",
+          "wordCount": null,
+          "title": "Becoming a Fractional CTO",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0e44033c-7a11-4305-9456-bc8c285a2746_1402x912.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/0e44033c-7a11-4305-9456-bc8c285a2746_1402x912.png"
+        },
+        {
           "id": "https://newsletter.pragmaticengineer.com/p/the-scoop-35",
           "author": "Gergely Orosz",
           "description": "While most of the tech world was on holiday, CircleCI suffered a major security breach, and Twitter had an outage. Also: hiring freezes and layoffs, and Microsoft hiring in Vietnam, and details on Spa",
