@@ -95,6 +95,22 @@
       "siteUrl": "https://newsletter.pragmaticengineer.com",
       "articles": [
         {
+          "id": "https://newsletter.pragmaticengineer.com/p/pollen-pay",
+          "author": "Gergely Orosz",
+          "description": "An exclusive inside look at the pay philosophy, regional differences and numbers of the defunct events tech startup. Based on 430 data points.",
+          "link": "https://newsletter.pragmaticengineer.com/p/pollen-pay",
+          "publishedOn": "2023-01-12T16:34:03.000Z",
+          "wordCount": null,
+          "title": "Inside Pollen's Transparent Compensation Data",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/729a2cd3-ef39-4683-94d6-7230b153ed0c_1718x1338.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/729a2cd3-ef39-4683-94d6-7230b153ed0c_1718x1338.png"
+        },
+        {
           "id": "https://newsletter.pragmaticengineer.com/p/fractional-cto",
           "author": "Gergely Orosz",
           "description": "What the role is and challenges that come with it, getting into fractional CTO roles, and lessons learned.",
@@ -189,22 +205,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/22ce273e-a97c-4de9-af68-7eef6f7b24d9_1180x1098.png"
-        },
-        {
-          "id": "https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2",
-          "author": "Gergely Orosz",
-          "description": "Lifting the lid on calibrations in Big Tech: the politics, strategies, allies. Advice for managers and individual contributors preparing for this key process.",
-          "link": "https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2",
-          "publishedOn": "2022-12-13T16:42:39.000Z",
-          "wordCount": null,
-          "title": "Performance Calibrations at Tech Companies: Part 2",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/6c9b4a23-f02b-4aa4-9efd-1675b5461b80_1512x1236.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/6c9b4a23-f02b-4aa4-9efd-1675b5461b80_1512x1236.png"
         }
       ]
     }
