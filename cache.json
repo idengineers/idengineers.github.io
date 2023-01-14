@@ -19,7 +19,7 @@
       "articles": []
     },
     {
-      "title": "ByteByteGo Newsletter",
+      "title": "ByteByteGo System Design Newsletter",
       "feedUrl": "https://blog.bytebytego.com/feed",
       "siteUrl": "https://blog.bytebytego.com",
       "articles": [
@@ -189,22 +189,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8f38d157-374a-4a1e-b83e-7131377be8a6_420x300.png"
-        },
-        {
-          "id": "https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path",
-          "author": "Gergely Orosz",
-          "description": "An excerpt from The Staff Engineer's Path by Tanya Reilly. The two paths, looking ahead, and creating future leaders.",
-          "link": "https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path",
-          "publishedOn": "2022-12-14T16:58:38.000Z",
-          "wordCount": null,
-          "title": "The Staff Engineer’s Path: You’re a Role Model Now (Sorry)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/22ce273e-a97c-4de9-af68-7eef6f7b24d9_1180x1098.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/22ce273e-a97c-4de9-af68-7eef6f7b24d9_1180x1098.png"
         }
       ]
     }

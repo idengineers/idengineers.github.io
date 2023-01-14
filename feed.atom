@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://engineers.id/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-13T00:38:33.525Z</updated>
+    <updated>2023-01-14T00:36:08.581Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://engineers.id/index.html"/>
     <link rel="self" href="https://engineers.id/feed.atom"/>
@@ -102,16 +102,6 @@
         <link href="https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers"/>
         <updated>2022-12-15T17:08:16.000Z</updated>
         <summary type="html"><![CDATA[Insights from 30+ engineering managers, directors, CTOs and founders about what’s happening on the job market.]]></summary>
-        <author>
-            <name>Gergely Orosz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Staff Engineer’s Path: You’re a Role Model Now (Sorry)]]></title>
-        <id>https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path</id>
-        <link href="https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path"/>
-        <updated>2022-12-14T16:58:38.000Z</updated>
-        <summary type="html"><![CDATA[An excerpt from The Staff Engineer's Path by Tanya Reilly. The two paths, looking ahead, and creating future leaders.]]></summary>
         <author>
             <name>Gergely Orosz</name>
         </author>
