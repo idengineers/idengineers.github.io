@@ -19,10 +19,26 @@
       "articles": []
     },
     {
-      "title": "ByteByteGo System Design Newsletter",
+      "title": "ByteByteGo Newsletter",
       "feedUrl": "https://blog.bytebytego.com/feed",
       "siteUrl": "https://blog.bytebytego.com",
       "articles": [
+        {
+          "id": "https://blog.bytebytego.com/p/ep-41-what-is-kubernetes",
+          "author": "Alex Xu",
+          "description": "This week’s system design refresher: New Machine Learning System Design Interview Book What is Kubernetes? (Youtube video) Microservice architecture 2-factor authentication Wed assembly New Book Announcement Our new book, Machine Learning System Design Interview, will be available on Amazon on Feb/01.",
+          "link": "https://blog.bytebytego.com/p/ep-41-what-is-kubernetes",
+          "publishedOn": "2023-01-14T16:31:04.000Z",
+          "wordCount": null,
+          "title": "EP 41: What is Kubernetes?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/youtube/w_728,c_limit/TlHvYWVUZyc",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/TlHvYWVUZyc"
+        },
         {
           "id": "https://blog.bytebytego.com/p/ep-40-git-workflow",
           "author": "Alex Xu",
@@ -173,22 +189,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e6123614-c00c-436a-ae2b-8829934948d3_420x300.png"
-        },
-        {
-          "id": "https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers",
-          "author": "Gergely Orosz",
-          "description": "Insights from 30+ engineering managers, directors, CTOs and founders about what’s happening on the job market.",
-          "link": "https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers",
-          "publishedOn": "2022-12-15T17:08:16.000Z",
-          "wordCount": null,
-          "title": "The Scoop: The 2022 Hiring Market, as seen by Hiring Managers",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8f38d157-374a-4a1e-b83e-7131377be8a6_420x300.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8f38d157-374a-4a1e-b83e-7131377be8a6_420x300.png"
         }
       ]
     }

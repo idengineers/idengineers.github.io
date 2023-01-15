@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://engineers.id/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-14T00:36:08.581Z</updated>
+    <updated>2023-01-15T00:40:21.723Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://engineers.id/index.html"/>
     <link rel="self" href="https://engineers.id/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[EP 41: What is Kubernetes?]]></title>
+        <id>https://blog.bytebytego.com/p/ep-41-what-is-kubernetes</id>
+        <link href="https://blog.bytebytego.com/p/ep-41-what-is-kubernetes"/>
+        <updated>2023-01-14T16:31:04.000Z</updated>
+        <summary type="html"><![CDATA[This week’s system design refresher: New Machine Learning System Design Interview Book What is Kubernetes? (Youtube video) Microservice architecture 2-factor authentication Wed assembly New Book Announcement Our new book, Machine Learning System Design Interview, will be available on Amazon on Feb/01.]]></summary>
+        <author>
+            <name>Alex Xu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Inside Pollen's Transparent Compensation Data]]></title>
         <id>https://newsletter.pragmaticengineer.com/p/pollen-pay</id>
@@ -94,16 +104,6 @@
         <summary type="html"><![CDATA[This week’s system design refresher: Process vs. Thread (Youtube video) ChatGPT Timeline DDoS Attack Fallacies of distributed computing What is the difference between Process and Thread? ChatGPT history ChatGPT and copy. ai brought attention to AIGC (AI-generated Content). Why is AIGC gaining explosive growth?]]></summary>
         <author>
             <name>Alex Xu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Scoop: The 2022 Hiring Market, as seen by Hiring Managers]]></title>
-        <id>https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers</id>
-        <link href="https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers"/>
-        <updated>2022-12-15T17:08:16.000Z</updated>
-        <summary type="html"><![CDATA[Insights from 30+ engineering managers, directors, CTOs and founders about what’s happening on the job market.]]></summary>
-        <author>
-            <name>Gergely Orosz</name>
         </author>
     </entry>
 </feed>
