@@ -1,526 +1,1518 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Engineers.ID: daily news feed for software engineers</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app">
+    <input type="checkbox" class="menu-btn" id="menu-btn" />
+    <label class="menu-label" for="menu-btn"></label>
 
-  <head>
-    <title>osmos::feed</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="robots" content="noindex, nofollow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="alternate" type="application/rss+xml" title="osmos::feed" href="feed.atom" />
-    <link href="index.css?v1.14.4" rel="stylesheet" />
-    <style>
-  :root {
-    /**
-     * Solarized Dark
-     * Ethan Schoonover (modified by aramisgithub)
-     */
-    --base00: #002b36;
-    --base01: #073642;
-    --base02: #586e75;
-    --base03: #657b83;
-    --base04: #839496;
-    --base05: #93a1a1;
-    --base06: #eee8d5;
-    --base07: #fdf6e3;
-    --base08: #dc322f;
-    --base09: #cb4b16;
-    --base0A: #b58900;
-    --base0B: #859900;
-    --base0C: #2aa198;
-    --base0D: #268bd2;
-    --base0E: #6c71c4;
-    --base0F: #d33682;
+    <div class="sidebar">
+      <header>
+        <h1 class="inline" style="user-select: none;">🦉</h1>
+        <ul class="group-selector">
+          
+            <li><a href="#feed">feed</a></li>
+          
+        </ul>
+      </header>
 
-    /**
-    * Components
-    */
-    --source-name-color: var(--base0C);
-  }
+      <footer>
+        
 
-  .daily-heading {
-    padding-left: 0;
-  }
+        <p>
+          Last updated Sun Jan 15 2023 05:36:41 GMT+0000 (Coordinated Universal Time).  Feed reader project by <a href="https://george.mand.is">George Mandis</a> and <a href="https://kevinfiol.com">Kevin Fiol</a>. 
+        </p>
+      </footer>
+    </div>
 
-  .card {
-    border: 1px solid var(--base02);
-  }
-</style>
+    <main>
+      
+        <section id="feed">
+          <h2>feed</h2>
+          
+            <details>
+              <summary>
+                <span class="feed-title">ByteByteGo Newsletter</span> 
+                <span class="feed-url">
+                  <small>
+                    (https://blog.bytebytego.com/feed)
+                  </small>
+                </span>
+                <div class="feed-timestamp">
+                  <small>Latest: 1/14/2023</small>
+                </div>
+              </summary>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep-41-what-is-kubernetes" target='_blank' rel='noopener norefferer nofollow'>
+                      EP 41: What is Kubernetes? 
+                    </a>
+                  </header>
 
-  </head>
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/14/2023</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep-41-what-is-kubernetes" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep-41-what-is-kubernetes" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep-40-git-workflow" target='_blank' rel='noopener norefferer nofollow'>
+                      EP 40: Git workflow
+                    </a>
+                  </header>
 
-  <body>
-    <!-- %after-body-begin.html% -->
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-14 datetime="2023-01-14T16:31:04.000Z">2023-01-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-14 datetime="2023-01-14T16:31:04.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ByteByteGo Newsletter</button>
-                  <a class="source-heading__link" href="https://blog.bytebytego.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.bytebytego.com/p/ep-41-what-is-kubernetes"
-                        open
-                      >
-                        <summary class="article-expander__title">EP 41: What is Kubernetes?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.bytebytego.com/p/ep-41-what-is-kubernetes">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/youtube/w_728,c_limit/TlHvYWVUZyc" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This week’s system design refresher: New Machine Learning System Design Interview Book What is Kubernetes? (Youtube video) Microservice architecture 2-factor authentication Wed assembly New Book Announcement Our new book, Machine Learning System Design Interview, will be available on Amazon on Feb/01.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-12 datetime="2023-01-12T16:34:03.000Z">2023-01-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-12 datetime="2023-01-12T16:34:03.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Pragmatic Engineer</button>
-                  <a class="source-heading__link" href="https://newsletter.pragmaticengineer.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://newsletter.pragmaticengineer.com/p/pollen-pay"
-                        open
-                      >
-                        <summary class="article-expander__title">Inside Pollen&#x27;s Transparent Compensation Data</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://newsletter.pragmaticengineer.com/p/pollen-pay">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/729a2cd3-ef39-4683-94d6-7230b153ed0c_1718x1338.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>An exclusive inside look at the pay philosophy, regional differences and numbers of the defunct events tech startup. Based on 430 data points.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-10 datetime="2023-01-10T15:50:32.000Z">2023-01-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-10 datetime="2023-01-10T15:50:32.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Pragmatic Engineer</button>
-                  <a class="source-heading__link" href="https://newsletter.pragmaticengineer.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://newsletter.pragmaticengineer.com/p/fractional-cto"
-                        open
-                      >
-                        <summary class="article-expander__title">Becoming a Fractional CTO</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://newsletter.pragmaticengineer.com/p/fractional-cto">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substack-post-media.s3.amazonaws.com/public/images/0e44033c-7a11-4305-9456-bc8c285a2746_1402x912.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>What the role is and challenges that come with it, getting into fractional CTO roles, and lessons learned.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-07 datetime="2023-01-07T16:30:02.000Z">2023-01-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-07 datetime="2023-01-07T16:30:02.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ByteByteGo Newsletter</button>
-                  <a class="source-heading__link" href="https://blog.bytebytego.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.bytebytego.com/p/ep-40-git-workflow"
-                        open
-                      >
-                        <summary class="article-expander__title">EP 40: Git workflow</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.bytebytego.com/p/ep-40-git-workflow">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F802a15f6-1657-4d4a-b05b-9f2778d38589_800x1211.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This week’s system design refresher: CAP Theorem (Youtube video) How Git works Redis use cases Linux commands What 50,000 incidents reveal about the state of incident management (Sponsored) Jump into the industry’s first Incident Benchmark Report and uncover the patterns and trends that can help you level up how you manage and learn from incidents at your organization.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-05 datetime="2023-01-05T16:56:28.000Z">2023-01-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-05 datetime="2023-01-05T16:56:28.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Pragmatic Engineer</button>
-                  <a class="source-heading__link" href="https://newsletter.pragmaticengineer.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://newsletter.pragmaticengineer.com/p/the-scoop-35"
-                        open
-                      >
-                        <summary class="article-expander__title">The Scoop #35: Holiday security breaches and outages</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://newsletter.pragmaticengineer.com/p/the-scoop-35">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/36cd4faa-496a-479a-ac67-7aace91691a5_420x300.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>While most of the tech world was on holiday, CircleCI suffered a major security breach, and Twitter had an outage. Also: hiring freezes and layoffs, and Microsoft hiring in Vietnam, and details on Spa</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-03 datetime="2023-01-03T17:03:17.000Z">2023-01-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-03 datetime="2023-01-03T17:03:17.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Pragmatic Engineer</button>
-                  <a class="source-heading__link" href="https://newsletter.pragmaticengineer.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://newsletter.pragmaticengineer.com/p/code-freezes"
-                        open
-                      >
-                        <summary class="article-expander__title">Code Deployment Freezes: Part 1</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://newsletter.pragmaticengineer.com/p/code-freezes">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9846784e-d504-4a1e-8ae3-b67408d75056_1360x1150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>At the end of last year, code deployments were frozen at many tech companies. Why was this done, what are the benefits, and what are the tradeoffs of this approach?</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-31 datetime="2022-12-31T16:30:55.000Z">2022-12-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-31 datetime="2022-12-31T16:30:55.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ByteByteGo Newsletter</button>
-                  <a class="source-heading__link" href="https://blog.bytebytego.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems"
-                        open
-                      >
-                        <summary class="article-expander__title">EP 39: Accounting 101 in Payment Systems</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9c4fafd-4096-42ab-86a1-d60c8e895c29_2763x3543.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This week’s system design refresher: Cloud Native Accounting 101 in Payments Evolution of Uber’s API Layer Short/Long Polling, SSE, Websocket 17 Equations That Changed the World What is cloud native? Below is a diagram showing the evolution of architecture and processes since the 1980s.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-24 datetime="2022-12-24T16:30:56.000Z">2022-12-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-24 datetime="2022-12-24T16:30:56.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ByteByteGo Newsletter</button>
-                  <a class="source-heading__link" href="https://blog.bytebytego.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data"
-                        open
-                      >
-                        <summary class="article-expander__title">EP 38: Where do we cache data?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1e0e31c-ad36-46b7-85a3-bd5b19dc4fab_2812x2622.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This week’s system design refresher: ByteByteGo Facebook page What is OSI Model? (Youtube video) Where do we cache data? CI/CD Pipeline What tech stack is commonly used for microservices? ByteByteGo Facebook page We’ve launched a Facebook page and want our content to be more accessible.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-20 datetime="2022-12-20T16:24:49.000Z">2022-12-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-20 datetime="2022-12-20T16:24:49.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Pragmatic Engineer</button>
-                  <a class="source-heading__link" href="https://newsletter.pragmaticengineer.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022"
-                        open
-                      >
-                        <summary class="article-expander__title">The Pragmatic Engineer in 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e6123614-c00c-436a-ae2b-8829934948d3_420x300.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The articles you enjoyed most this year, my personal favorites, and a recap of a busy year in tech news.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-17 datetime="2022-12-17T16:30:45.000Z">2022-12-17</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-17 datetime="2022-12-17T16:30:45.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ByteByteGo Newsletter</button>
-                  <a class="source-heading__link" href="https://blog.bytebytego.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.bytebytego.com/p/ep37-process-vs-thread"
-                        open
-                      >
-                        <summary class="article-expander__title">EP37: Process vs Thread</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.bytebytego.com/p/ep37-process-vs-thread">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/youtube/w_728,c_limit/4rLW7zg21gI" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This week’s system design refresher: Process vs. Thread (Youtube video) ChatGPT Timeline DDoS Attack Fallacies of distributed computing What is the difference between Process and Thread? ChatGPT history ChatGPT and copy. ai brought attention to AIGC (AI-generated Content). Why is AIGC gaining explosive growth?</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/7/2023</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep-40-git-workflow" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep-40-git-workflow" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems" target='_blank' rel='noopener norefferer nofollow'>
+                      EP 39: Accounting 101 in Payment Systems
+                    </a>
+                  </header>
 
-    <footer>
-      <a class="footer-link" href="https://github.com/idengineers/idengineers/actions/runs/3921004628">
-        <time id="build-timestamp" datetime="2023-01-15T00:40:21.702Z">2023-01-15T00:40:21.702Z</time>
-      </a>
-      <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
-    </footer>
-    <script src="index.js?v1.14.4"></script>
-    <!-- %before-body-end.html% -->
-  </body>
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/31/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep-39-accounting-101-in-payment-systems" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data" target='_blank' rel='noopener norefferer nofollow'>
+                      EP 38: Where do we cache data?
+                    </a>
+                  </header>
 
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/24/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep-38-where-do-we-cache-data" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep37-process-vs-thread" target='_blank' rel='noopener norefferer nofollow'>
+                      EP37: Process vs Thread
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/17/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep37-process-vs-thread" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep37-process-vs-thread" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases" target='_blank' rel='noopener norefferer nofollow'>
+                      EP36: Types of Databases and Use Cases
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/10/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep36-types-of-databases-and-use-cases" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep35-what-is-kubernetes" target='_blank' rel='noopener norefferer nofollow'>
+                      EP35: What is Kubernetes
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/3/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep35-what-is-kubernetes" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep35-what-is-kubernetes" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep34-session-cookie-jwt-token-sso" target='_blank' rel='noopener norefferer nofollow'>
+                      EP34: Session, cookie, JWT, token, SSO, and OAuth
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/26/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep34-session-cookie-jwt-token-sso" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep34-session-cookie-jwt-token-sso" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/twitter-architecture-2022-vs-2012" target='_blank' rel='noopener norefferer nofollow'>
+                      EP33: Twitter Architecture 2022 vs 2012
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/19/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/twitter-architecture-2022-vs-2012" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/twitter-architecture-2022-vs-2012" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep32-how-does-grpc-work" target='_blank' rel='noopener norefferer nofollow'>
+                      EP32: REST vs. GraphQL
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/12/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep32-how-does-grpc-work" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep32-how-does-grpc-work" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep31-super-high-performance-nosql" target='_blank' rel='noopener norefferer nofollow'>
+                      EP31: Super High-performance NoSQL and MQ
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/5/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep31-super-high-performance-nosql" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep31-super-high-performance-nosql" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep30-why-is-postgresql-the-most-loved" target='_blank' rel='noopener norefferer nofollow'>
+                      EP30: Why is PostgreSQL the most loved database
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">10/29/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep30-why-is-postgresql-the-most-loved" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep30-why-is-postgresql-the-most-loved" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep29-online-gaming-protocol" target='_blank' rel='noopener norefferer nofollow'>
+                      EP29: Online Gaming Protocol
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">10/22/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep29-online-gaming-protocol" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep29-online-gaming-protocol" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep28-the-payments-ecosystem-also" target='_blank' rel='noopener norefferer nofollow'>
+                      EP28: The Payments Ecosystem. Also...
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">10/15/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep28-the-payments-ecosystem-also" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep28-the-payments-ecosystem-also" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep27-stack-overflow-architecture" target='_blank' rel='noopener norefferer nofollow'>
+                      EP27: Stack Overflow Architecture. Also...
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">10/8/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep27-stack-overflow-architecture" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep27-stack-overflow-architecture" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep25-proxy-vs-reverse-proxy" target='_blank' rel='noopener norefferer nofollow'>
+                      EP26: Proxy vs reverse proxy
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">10/1/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep25-proxy-vs-reverse-proxy" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep25-proxy-vs-reverse-proxy" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep25-how-applegoogle-pay-handle-card" target='_blank' rel='noopener norefferer nofollow'>
+                      EP25: How Apple/Google Pay handle card info. Also...
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/24/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep25-how-applegoogle-pay-handle-card" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep25-how-applegoogle-pay-handle-card" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep24-environment-friendly-languages" target='_blank' rel='noopener norefferer nofollow'>
+                      EP24: Environment-friendly languages. Also...
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/17/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep24-environment-friendly-languages" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep24-environment-friendly-languages" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database" target='_blank' rel='noopener norefferer nofollow'>
+                      EP23: How to choose the right database? Also...
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/10/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://blog.bytebytego.com/p/ep22-latency-numbers-you-should-know" target='_blank' rel='noopener norefferer nofollow'>
+                      EP22: Latency numbers you should know. Also...
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/3/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://blog.bytebytego.com/p/ep22-latency-numbers-you-should-know" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://blog.bytebytego.com/p/ep22-latency-numbers-you-should-know" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+            </details>
+          
+            <details>
+              <summary>
+                <span class="feed-title">The Pragmatic Engineer</span> 
+                <span class="feed-url">
+                  <small>
+                    (https://newsletter.pragmaticengineer.com/feed)
+                  </small>
+                </span>
+                <div class="feed-timestamp">
+                  <small>Latest: 1/12/2023</small>
+                </div>
+              </summary>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/pollen-pay" target='_blank' rel='noopener norefferer nofollow'>
+                      Inside Pollen&apos;s Transparent Compensation Data
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/12/2023</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/pollen-pay" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/pollen-pay" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/fractional-cto" target='_blank' rel='noopener norefferer nofollow'>
+                      Becoming a Fractional CTO
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/10/2023</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/fractional-cto" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/fractional-cto" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-scoop-35" target='_blank' rel='noopener norefferer nofollow'>
+                      The Scoop #35: Holiday security breaches and outages
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/5/2023</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-scoop-35" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-scoop-35" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/code-freezes" target='_blank' rel='noopener norefferer nofollow'>
+                      Code Deployment Freezes: Part 1
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/3/2023</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/code-freezes" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/code-freezes" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022" target='_blank' rel='noopener norefferer nofollow'>
+                      The Pragmatic Engineer in 2022
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/20/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-in-2022" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers" target='_blank' rel='noopener norefferer nofollow'>
+                      The Scoop: The 2022 Hiring Market, as seen by Hiring Managers
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/15/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-2022-hiring-market-via-hiring-managers" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path" target='_blank' rel='noopener norefferer nofollow'>
+                      The Staff Engineer’s Path: You’re a Role Model Now (Sorry)
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/14/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-staff-engineers-path" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2" target='_blank' rel='noopener norefferer nofollow'>
+                      Performance Calibrations at Tech Companies: Part 2
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/13/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/performance-calibrations-part-2" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-scoop-34" target='_blank' rel='noopener norefferer nofollow'>
+                      The Scoop #34: A Return to the Office (RTO) wave?
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/8/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-scoop-34" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-scoop-34" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/performance-calibrations" target='_blank' rel='noopener norefferer nofollow'>
+                      Performance Calibrations at Tech Companies: Part 1
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/6/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/performance-calibrations" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/performance-calibrations" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market" target='_blank' rel='noopener norefferer nofollow'>
+                      The Scoop: The 2022 Hiring Market, as seen by Tech Recruiters
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/1/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-scoop-the-2022-hiring-market" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d" target='_blank' rel='noopener norefferer nofollow'>
+                      Real-World Engineering Challenges #7: Choosing Technologies
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/29/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-scoop-33" target='_blank' rel='noopener norefferer nofollow'>
+                      The Scoop #33: Will Google start to pay less, over time?
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/24/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-scoop-33" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-scoop-33" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/linear" target='_blank' rel='noopener norefferer nofollow'>
+                      The Story of Linear as told by its CTO
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/22/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/linear" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/linear" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-scoop-32" target='_blank' rel='noopener norefferer nofollow'>
+                      The Scoop #32: Companies Still Hiring
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/17/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-scoop-32" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-scoop-32" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/linkedin-engineering-efficiency" target='_blank' rel='noopener norefferer nofollow'>
+                      Measuring Engineering Efficiency at LinkedIn
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/15/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/linkedin-engineering-efficiency" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/linkedin-engineering-efficiency" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-scoop-31" target='_blank' rel='noopener norefferer nofollow'>
+                      The Scoop #31: Cruel Changes at Twitter
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/10/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-scoop-31" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-scoop-31" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/state-of-frontend-2022" target='_blank' rel='noopener norefferer nofollow'>
+                      The State of Frontend in 2022
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/8/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/state-of-frontend-2022" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/state-of-frontend-2022" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/the-scoop-30" target='_blank' rel='noopener norefferer nofollow'>
+                      The Scoop #30: Turmoil at Twitter
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/3/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/the-scoop-30" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/the-scoop-30" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://newsletter.pragmaticengineer.com/p/game-development-basics" target='_blank' rel='noopener norefferer nofollow'>
+                      Game Development Basics
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/1/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://newsletter.pragmaticengineer.com/p/game-development-basics" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://newsletter.pragmaticengineer.com/p/game-development-basics" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+            </details>
+          
+            <details>
+              <summary>
+                <span class="feed-title">Easyread - Medium</span> 
+                <span class="feed-url">
+                  <small>
+                    (https://medium.easyread.co/feed)
+                  </small>
+                </span>
+                <div class="feed-timestamp">
+                  <small>Latest: 12/4/2022</small>
+                </div>
+              </summary>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/mocking-server-api-on-kubernetes-963bdeb40297?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      Mocking Server API On Kubernetes
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/4/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/mocking-server-api-on-kubernetes-963bdeb40297?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/mocking-server-api-on-kubernetes-963bdeb40297?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/ngomongin-seberapa-penting-code-yang-mudah-dibaca-260e74805a3?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      Ngomongin: Seberapa penting code yang mudah dibaca?
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/16/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/ngomongin-seberapa-penting-code-yang-mudah-dibaca-260e74805a3?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/ngomongin-seberapa-penting-code-yang-mudah-dibaca-260e74805a3?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/neumorphismwidget-dart-extension-2-3259e650e177?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      Neumorphism Widget— Dart extension#2
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/14/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/neumorphismwidget-dart-extension-2-3259e650e177?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/neumorphismwidget-dart-extension-2-3259e650e177?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/create-script-to-check-javascript-and-golang-regex-1bfa047586a7?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      Create Script to check JavaScript and Golang Regex
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">11/13/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/create-script-to-check-javascript-and-golang-regex-1bfa047586a7?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/create-script-to-check-javascript-and-golang-regex-1bfa047586a7?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/my-october-flutter-notes-2-6e0c78cf2e56?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      My October Flutter Notes — 2
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">10/31/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/my-october-flutter-notes-2-6e0c78cf2e56?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/my-october-flutter-notes-2-6e0c78cf2e56?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/3-options-for-creating-responsive-layouts-in-flutter-app-live-demo-68b0c0e955ab?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      3 Options for Creating Responsive Layouts in Flutter App + Live Demo
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">10/17/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/3-options-for-creating-responsive-layouts-in-flutter-app-live-demo-68b0c0e955ab?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/3-options-for-creating-responsive-layouts-in-flutter-app-live-demo-68b0c0e955ab?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/how-to-make-quantity-input-in-flutter-app-efe0b6f9acc0?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      How to make Quantity Input in Flutter App
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">10/10/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/how-to-make-quantity-input-in-flutter-app-efe0b6f9acc0?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/how-to-make-quantity-input-in-flutter-app-efe0b6f9acc0?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/my-september-flutter-notes-700907827c7f?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      My September Flutter Notes.
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/30/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/my-september-flutter-notes-700907827c7f?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/my-september-flutter-notes-700907827c7f?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/inspecting-android-traffic-using-proxyman-apk-mitm-a3e1fa6308c8?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      Inspecting Android Traffic using Proxyman + apk-mitm
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/8/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/inspecting-android-traffic-using-proxyman-apk-mitm-a3e1fa6308c8?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/inspecting-android-traffic-using-proxyman-apk-mitm-a3e1fa6308c8?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://medium.easyread.co/build-simple-chatbot-with-golang-messenger-f00f6299960?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>
+                      Build Basic Chatbot with Golang &amp; Messenger
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/8/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://medium.easyread.co/build-simple-chatbot-with-golang-messenger-f00f6299960?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://medium.easyread.co/build-simple-chatbot-with-golang-messenger-f00f6299960?source=rss----7de2a17d9898---4" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+            </details>
+          
+            <details>
+              <summary>
+                <span class="feed-title">Notes of SoftwareArchitect.ID</span> 
+                <span class="feed-url">
+                  <small>
+                    (https://notes.softwarearchitect.id/feed)
+                  </small>
+                </span>
+                <div class="feed-timestamp">
+                  <small>Latest: 7/11/2022</small>
+                </div>
+              </summary>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://notes.softwarearchitect.id/p/diary-3-adr-architecture-decision" target='_blank' rel='noopener norefferer nofollow'>
+                      Diary #3 ADR (Architecture Decision Record) pada Software Architecture 
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">7/11/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://notes.softwarearchitect.id/p/diary-3-adr-architecture-decision" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://notes.softwarearchitect.id/p/diary-3-adr-architecture-decision" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://notes.softwarearchitect.id/p/diary2-struktur-dan-aspek-penting" target='_blank' rel='noopener norefferer nofollow'>
+                      Diary#2: Struktur dan Aspek Penting dalam Software Architecture
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">6/13/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://notes.softwarearchitect.id/p/diary2-struktur-dan-aspek-penting" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://notes.softwarearchitect.id/p/diary2-struktur-dan-aspek-penting" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://notes.softwarearchitect.id/p/diary-1-a-glimpse-of-how-to-striving" target='_blank' rel='noopener norefferer nofollow'>
+                      Diary #1: A Glimpse of how to Striving to be A Full-Fledged Software Architect
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/9/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://notes.softwarearchitect.id/p/diary-1-a-glimpse-of-how-to-striving" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://notes.softwarearchitect.id/p/diary-1-a-glimpse-of-how-to-striving" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://notes.softwarearchitect.id/p/software-architect-intro" target='_blank' rel='noopener norefferer nofollow'>
+                      Software Architect: Continuous and Endless Sailing on the Endless Sea
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/17/2022</li>
+                      
+                      <li><a href="https://txtify.it/https://notes.softwarearchitect.id/p/software-architect-intro" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://notes.softwarearchitect.id/p/software-architect-intro" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+            </details>
+          
+            <details>
+              <summary>
+                <span class="feed-title">Letters From Iman</span> 
+                <span class="feed-url">
+                  <small>
+                    (https://imantumorang.com/index.xml)
+                  </small>
+                </span>
+                <div class="feed-timestamp">
+                  <small>Latest: 2/25/2021</small>
+                </div>
+              </summary>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/my-mental-problem-am-i-too-hard-to-myself/" target='_blank' rel='noopener norefferer nofollow'>
+                      My Mental Problem: Am I Too Hard to Myself?
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">2/25/2021</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/my-mental-problem-am-i-too-hard-to-myself/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/my-mental-problem-am-i-too-hard-to-myself/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/how-to-do-pagination-in-postgres-with-golang-in-4-common-ways/" target='_blank' rel='noopener norefferer nofollow'>
+                      How To Do Pagination in Postgres with Golang in 4 Common Ways
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/22/2020</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/how-to-do-pagination-in-postgres-with-golang-in-4-common-ways/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/how-to-do-pagination-in-postgres-with-golang-in-4-common-ways/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/http-patch-method-ive-thought-the-wrong-way/" target='_blank' rel='noopener norefferer nofollow'>
+                      HTTP - PATCH Method! I&apos;ve Thought the Wrong Way!!!
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">2/8/2020</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/http-patch-method-ive-thought-the-wrong-way/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/http-patch-method-ive-thought-the-wrong-way/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/today-i-learned-row-locking-transaction-in-postgresql/" target='_blank' rel='noopener norefferer nofollow'>
+                      Today I Learned: Row Locking Transaction in PostgreSQL
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/6/2020</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/today-i-learned-row-locking-transaction-in-postgresql/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/today-i-learned-row-locking-transaction-in-postgresql/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/today-i-learned-enabling-horizontal-pod-autoscalerhpa-in-kubernetes/" target='_blank' rel='noopener norefferer nofollow'>
+                      Today I Learned: Enabling Horizontal Pod Autoscaler(HPA) in Kubernetes
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">9/7/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/today-i-learned-enabling-horizontal-pod-autoscalerhpa-in-kubernetes/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/today-i-learned-enabling-horizontal-pod-autoscalerhpa-in-kubernetes/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/utilize-open-api-3-for-the-faster-software-development-process/" target='_blank' rel='noopener norefferer nofollow'>
+                      Utilize Open API 3 for the Faster Software Development Process
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">7/31/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/utilize-open-api-3-for-the-faster-software-development-process/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/utilize-open-api-3-for-the-faster-software-development-process/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/today-i-learned-pass-by-reference-on-interface-parameter-in-golang/" target='_blank' rel='noopener norefferer nofollow'>
+                      Today I Learned: Pass By Reference on Interface Parameter in Golang
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">3/22/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/today-i-learned-pass-by-reference-on-interface-parameter-in-golang/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/today-i-learned-pass-by-reference-on-interface-parameter-in-golang/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/the-evolutions-of-git-commit-message-conventions-in-kurio/" target='_blank' rel='noopener norefferer nofollow'>
+                      The Evolutions of Git Commit Message Conventions in Kurio
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">2/6/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/the-evolutions-of-git-commit-message-conventions-in-kurio/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/the-evolutions-of-git-commit-message-conventions-in-kurio/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/mount-file-to-kubernetes-pod-without-deleting-the-existing-file-in-the-docker-container-in-the-same-directory/" target='_blank' rel='noopener norefferer nofollow'>
+                      Mount file to Kubernetes Pod, without Deleting the Existing File — in the Docker-Container in the Same Directory
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/29/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/mount-file-to-kubernetes-pod-without-deleting-the-existing-file-in-the-docker-container-in-the-same-directory/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/mount-file-to-kubernetes-pod-without-deleting-the-existing-file-in-the-docker-container-in-the-same-directory/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/integration-test-with-database-in-golang/" target='_blank' rel='noopener norefferer nofollow'>
+                      Integration Test With Database in Golang
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/25/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/integration-test-with-database-in-golang/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/integration-test-with-database-in-golang/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/today-i-learned-fix-go-get-private-repository-return-error-terminal-prompts-disabled/" target='_blank' rel='noopener norefferer nofollow'>
+                      Today I Learned - Fix: go get private repository return error terminal prompts disabled
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/23/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/today-i-learned-fix-go-get-private-repository-return-error-terminal-prompts-disabled/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/today-i-learned-fix-go-get-private-repository-return-error-terminal-prompts-disabled/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/today-i-learned-checkout-to-pull-request-in-github-public-repository/" target='_blank' rel='noopener norefferer nofollow'>
+                      Today I Learned - Checkout to Pull Request in GitHub Public Repository
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/22/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/today-i-learned-checkout-to-pull-request-in-github-public-repository/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/today-i-learned-checkout-to-pull-request-in-github-public-repository/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/today-i-learned-making-a-simple-interactive-shell-application-in-golang/" target='_blank' rel='noopener norefferer nofollow'>
+                      Today I Learned: Making a Simple Interactive Shell Application in Golang
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">1/21/2019</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/today-i-learned-making-a-simple-interactive-shell-application-in-golang/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/today-i-learned-making-a-simple-interactive-shell-application-in-golang/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/ci/cd-at-kurio-backend-with-buddy.works/" target='_blank' rel='noopener norefferer nofollow'>
+                      CI/CD at Kurio Backend with Buddy.Works
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/5/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/ci/cd-at-kurio-backend-with-buddy.works/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/ci/cd-at-kurio-backend-with-buddy.works/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/about-theme/" target='_blank' rel='noopener norefferer nofollow'>
+                      About Theme
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/2/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/about-theme/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/about-theme/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/the-daily-life-of-a-software-engineer-in-jakarta/" target='_blank' rel='noopener norefferer nofollow'>
+                      The Daily Life of a Software Engineer in Jakarta
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">12/2/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/the-daily-life-of-a-software-engineer-in-jakarta/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/the-daily-life-of-a-software-engineer-in-jakarta/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/what-are-some-things-i-wish-i-knew-when-i-started-programming/" target='_blank' rel='noopener norefferer nofollow'>
+                      What Are Some Things I Wish I Knew When I Started Programming
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/17/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/what-are-some-things-i-wish-i-knew-when-i-started-programming/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/what-are-some-things-i-wish-i-knew-when-i-started-programming/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/my-honest-opinion-about-unit-testing/" target='_blank' rel='noopener norefferer nofollow'>
+                      My honest opinion about Unit Testing
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/6/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/my-honest-opinion-about-unit-testing/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/my-honest-opinion-about-unit-testing/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/my-first-impression-about-code-review/" target='_blank' rel='noopener norefferer nofollow'>
+                      My First Impression about Code Review
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/6/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/my-first-impression-about-code-review/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/my-first-impression-about-code-review/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/why-you-should-care-about-squash-and-merge-in-git/" target='_blank' rel='noopener norefferer nofollow'>
+                      Why You Should Care About Squash and Merge in Git
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/6/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/why-you-should-care-about-squash-and-merge-in-git/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/why-you-should-care-about-squash-and-merge-in-git/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/how-bad-is-my-first-code-in-backend-production-when-working-as-a-software-engineer/" target='_blank' rel='noopener norefferer nofollow'>
+                      How Bad is My First Code in Backend Production when Working as a Software Engineer
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/6/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/how-bad-is-my-first-code-in-backend-production-when-working-as-a-software-engineer/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/how-bad-is-my-first-code-in-backend-production-when-working-as-a-software-engineer/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/programming-as-a-passion-vs-programming-as-a-job/" target='_blank' rel='noopener norefferer nofollow'>
+                      Programming as a Passion vs Programming as a Job
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/2/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/programming-as-a-passion-vs-programming-as-a-job/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/programming-as-a-passion-vs-programming-as-a-job/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/an-opinion-based-advices-to-junior-programmer/" target='_blank' rel='noopener norefferer nofollow'>
+                      An Opinion-based : Advices to Junior Programmer
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/2/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/an-opinion-based-advices-to-junior-programmer/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/an-opinion-based-advices-to-junior-programmer/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/how-can-i-ever-be-a-shit-as-a-software-developer/" target='_blank' rel='noopener norefferer nofollow'>
+                      How can I ever be a shit as a software developer
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/1/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/how-can-i-ever-be-a-shit-as-a-software-developer/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/how-can-i-ever-be-a-shit-as-a-software-developer/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/the-hardest-part-of-being-a-non-native-speaker-of-english/" target='_blank' rel='noopener norefferer nofollow'>
+                      The Hardest Part of Being a Non-Native Speaker of English
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/1/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/the-hardest-part-of-being-a-non-native-speaker-of-english/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/the-hardest-part-of-being-a-non-native-speaker-of-english/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/faker/" target='_blank' rel='noopener norefferer nofollow'>
+                      Faker
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/1/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/faker/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/faker/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/saint/" target='_blank' rel='noopener norefferer nofollow'>
+                      Saint
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/1/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/saint/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/saint/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+                <article class="item">
+                  <header class="item__header">
+                    <a href="https://imantumorang.com/posts/what-i-learn-from-working-in-small-startup-as-a-fresh-graduate/" target='_blank' rel='noopener norefferer nofollow'>
+                      What I Learn from Working in Small Startup as A Fresh Graduate
+                    </a>
+                  </header>
+
+                  <small>
+                    <ul class="article-links">
+                      <li class="monospace">5/1/2018</li>
+                      
+                      <li><a href="https://txtify.it/https://imantumorang.com/posts/what-i-learn-from-working-in-small-startup-as-a-fresh-graduate/" target='_blank' rel='noopener norefferer nofollow'>txtify</a></li>
+                      <li><a href="https://archive.md/https://imantumorang.com/posts/what-i-learn-from-working-in-small-startup-as-a-fresh-graduate/" target='_blank' rel='noopener norefferer nofollow'>archive.md</a></li>
+                    </ul>
+                  </small>
+                </article>
+              
+            </details>
+          
+        </section>
+      
+
+        <div class="default-text">
+          <p>Welcome to Engineers.ID </p>
+          <p>Click news feed to read updated news feed from our recommended publications</p>
+        </div>
+    </main>
+  </div>
+</body>
 </html>
